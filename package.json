@@ -29,7 +29,6 @@
     "karma-phantomjs-launcher": "^0.1.4",
     "mocha": "^2.0.1",
     "mustache": "^0.8.2",
-    "phantomjs": "^1.9.12",
-    "tundra": "^1.0.0-rc.1"
-  }
+    "phantomjs": "^1.9.12"
+      }
 }
