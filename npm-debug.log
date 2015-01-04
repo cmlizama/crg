@@ -1,0 +1,1017 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.4
+3 info using node@v0.10.22
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/christopherlizama/Desktop/GithubRepos/crg',
+5 verbose install   [ 'express',
+5 verbose install     'body-parser',
+5 verbose install     'cookie-parser',
+5 verbose install     'morgan',
+5 verbose install     'serve-favicon',
+5 verbose install     'debug',
+5 verbose install     'jade',
+5 verbose install     'bower',
+5 verbose install     'chai',
+5 verbose install     'consolidate',
+5 verbose install     'grunt',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-mocha',
+5 verbose install     'grunt-mocha-test',
+5 verbose install     'karma-chai',
+5 verbose install     'karma-mocha',
+5 verbose install     'karma-mocha-reporter',
+5 verbose install     'karma-phantomjs-launcher',
+5 verbose install     'mocha',
+5 verbose install     'mustache',
+5 verbose install     'phantomjs',
+5 verbose install     'tundra' ] ]
+6 info preinstall crg@0.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'cookie-parser@~1.3.3', null ]
+9 verbose cache add name=undefined spec="cookie-parser@~1.3.3" args=["cookie-parser@~1.3.3",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'cookie-parser@~1.3.3',
+10 verbose parsed url   path: 'cookie-parser@~1.3.3',
+10 verbose parsed url   href: 'cookie-parser@~1.3.3' }
+11 verbose cache add name="cookie-parser" spec="~1.3.3" args=["cookie-parser","~1.3.3"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '~1.3.3',
+12 verbose parsed url   path: '~1.3.3',
+12 verbose parsed url   href: '~1.3.3' }
+13 verbose addNamed [ 'cookie-parser', '~1.3.3' ]
+14 verbose addNamed [ null, '>=1.3.3-0 <1.4.0-0' ]
+15 verbose cache add [ 'serve-favicon@~2.1.3', null ]
+16 verbose cache add name=undefined spec="serve-favicon@~2.1.3" args=["serve-favicon@~2.1.3",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'serve-favicon@~2.1.3',
+17 verbose parsed url   path: 'serve-favicon@~2.1.3',
+17 verbose parsed url   href: 'serve-favicon@~2.1.3' }
+18 verbose cache add name="serve-favicon" spec="~2.1.3" args=["serve-favicon","~2.1.3"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '~2.1.3',
+19 verbose parsed url   path: '~2.1.3',
+19 verbose parsed url   href: '~2.1.3' }
+20 verbose addNamed [ 'serve-favicon', '~2.1.3' ]
+21 verbose addNamed [ null, '>=2.1.3-0 <2.2.0-0' ]
+22 verbose cache add [ 'morgan@~1.3.0', null ]
+23 verbose cache add name=undefined spec="morgan@~1.3.0" args=["morgan@~1.3.0",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'morgan@~1.3.0',
+24 verbose parsed url   path: 'morgan@~1.3.0',
+24 verbose parsed url   href: 'morgan@~1.3.0' }
+25 verbose cache add name="morgan" spec="~1.3.0" args=["morgan","~1.3.0"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '~1.3.0',
+26 verbose parsed url   path: '~1.3.0',
+26 verbose parsed url   href: '~1.3.0' }
+27 verbose addNamed [ 'morgan', '~1.3.0' ]
+28 verbose addNamed [ null, '>=1.3.0-0 <1.4.0-0' ]
+29 verbose cache add [ 'debug@~2.0.0', null ]
+30 verbose cache add name=undefined spec="debug@~2.0.0" args=["debug@~2.0.0",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'debug@~2.0.0',
+31 verbose parsed url   path: 'debug@~2.0.0',
+31 verbose parsed url   href: 'debug@~2.0.0' }
+32 verbose cache add name="debug" spec="~2.0.0" args=["debug","~2.0.0"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: '~2.0.0',
+33 verbose parsed url   path: '~2.0.0',
+33 verbose parsed url   href: '~2.0.0' }
+34 verbose addNamed [ 'debug', '~2.0.0' ]
+35 verbose addNamed [ null, '>=2.0.0-0 <2.1.0-0' ]
+36 silly lockFile bf5babd8-cookie-parser-1-3-3 cookie-parser@~1.3.3
+37 verbose lock cookie-parser@~1.3.3 /Users/christopherlizama/.npm/bf5babd8-cookie-parser-1-3-3.lock
+38 silly lockFile 38295489-serve-favicon-2-1-3 serve-favicon@~2.1.3
+39 verbose lock serve-favicon@~2.1.3 /Users/christopherlizama/.npm/38295489-serve-favicon-2-1-3.lock
+40 silly lockFile a4a9bdf4-morgan-1-3-0 morgan@~1.3.0
+41 verbose lock morgan@~1.3.0 /Users/christopherlizama/.npm/a4a9bdf4-morgan-1-3-0.lock
+42 verbose cache add [ 'jade@~1.6.0', null ]
+43 verbose cache add name=undefined spec="jade@~1.6.0" args=["jade@~1.6.0",null]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'jade@~1.6.0',
+44 verbose parsed url   path: 'jade@~1.6.0',
+44 verbose parsed url   href: 'jade@~1.6.0' }
+45 verbose cache add name="jade" spec="~1.6.0" args=["jade","~1.6.0"]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: '~1.6.0',
+46 verbose parsed url   path: '~1.6.0',
+46 verbose parsed url   href: '~1.6.0' }
+47 verbose addNamed [ 'jade', '~1.6.0' ]
+48 verbose addNamed [ null, '>=1.6.0-0 <1.7.0-0' ]
+49 silly lockFile ad8c17a8-jade-1-6-0 jade@~1.6.0
+50 verbose lock jade@~1.6.0 /Users/christopherlizama/.npm/ad8c17a8-jade-1-6-0.lock
+51 verbose cache add [ 'bower@^1.3.12', null ]
+52 verbose cache add name=undefined spec="bower@^1.3.12" args=["bower@^1.3.12",null]
+53 verbose parsed url { protocol: null,
+53 verbose parsed url   slashes: null,
+53 verbose parsed url   auth: null,
+53 verbose parsed url   host: null,
+53 verbose parsed url   port: null,
+53 verbose parsed url   hostname: null,
+53 verbose parsed url   hash: null,
+53 verbose parsed url   search: null,
+53 verbose parsed url   query: null,
+53 verbose parsed url   pathname: 'bower@^1.3.12',
+53 verbose parsed url   path: 'bower@^1.3.12',
+53 verbose parsed url   href: 'bower@^1.3.12' }
+54 verbose cache add name="bower" spec="^1.3.12" args=["bower","^1.3.12"]
+55 verbose parsed url { protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: '^1.3.12',
+55 verbose parsed url   path: '^1.3.12',
+55 verbose parsed url   href: '^1.3.12' }
+56 verbose addNamed [ 'bower', '^1.3.12' ]
+57 verbose addNamed [ null, '>=1.3.12-0 <2.0.0-0' ]
+58 silly lockFile 99f654c7-bower-1-3-12 bower@^1.3.12
+59 verbose lock bower@^1.3.12 /Users/christopherlizama/.npm/99f654c7-bower-1-3-12.lock
+60 verbose cache add [ 'chai@^1.10.0', null ]
+61 verbose cache add name=undefined spec="chai@^1.10.0" args=["chai@^1.10.0",null]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: 'chai@^1.10.0',
+62 verbose parsed url   path: 'chai@^1.10.0',
+62 verbose parsed url   href: 'chai@^1.10.0' }
+63 verbose cache add name="chai" spec="^1.10.0" args=["chai","^1.10.0"]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: '^1.10.0',
+64 verbose parsed url   path: '^1.10.0',
+64 verbose parsed url   href: '^1.10.0' }
+65 verbose addNamed [ 'chai', '^1.10.0' ]
+66 verbose addNamed [ null, '>=1.10.0-0 <2.0.0-0' ]
+67 silly lockFile 55766717-chai-1-10-0 chai@^1.10.0
+68 verbose lock chai@^1.10.0 /Users/christopherlizama/.npm/55766717-chai-1-10-0.lock
+69 silly lockFile 12b6356d-debug-2-0-0 debug@~2.0.0
+70 verbose lock debug@~2.0.0 /Users/christopherlizama/.npm/12b6356d-debug-2-0-0.lock
+71 verbose cache add [ 'consolidate@^0.10.0', null ]
+72 verbose cache add name=undefined spec="consolidate@^0.10.0" args=["consolidate@^0.10.0",null]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'consolidate@^0.10.0',
+73 verbose parsed url   path: 'consolidate@^0.10.0',
+73 verbose parsed url   href: 'consolidate@^0.10.0' }
+74 verbose cache add name="consolidate" spec="^0.10.0" args=["consolidate","^0.10.0"]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: '^0.10.0',
+75 verbose parsed url   path: '^0.10.0',
+75 verbose parsed url   href: '^0.10.0' }
+76 verbose addNamed [ 'consolidate', '^0.10.0' ]
+77 verbose addNamed [ null, '>=0.10.0-0 <0.11.0-0' ]
+78 silly lockFile 72e07685-consolidate-0-10-0 consolidate@^0.10.0
+79 verbose lock consolidate@^0.10.0 /Users/christopherlizama/.npm/72e07685-consolidate-0-10-0.lock
+80 verbose cache add [ 'grunt@^0.4.5', null ]
+81 verbose cache add name=undefined spec="grunt@^0.4.5" args=["grunt@^0.4.5",null]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: 'grunt@^0.4.5',
+82 verbose parsed url   path: 'grunt@^0.4.5',
+82 verbose parsed url   href: 'grunt@^0.4.5' }
+83 verbose cache add name="grunt" spec="^0.4.5" args=["grunt","^0.4.5"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '^0.4.5',
+84 verbose parsed url   path: '^0.4.5',
+84 verbose parsed url   href: '^0.4.5' }
+85 verbose addNamed [ 'grunt', '^0.4.5' ]
+86 verbose addNamed [ null, '>=0.4.5-0 <0.5.0-0' ]
+87 silly lockFile 73541f84-grunt-0-4-5 grunt@^0.4.5
+88 verbose lock grunt@^0.4.5 /Users/christopherlizama/.npm/73541f84-grunt-0-4-5.lock
+89 verbose cache add [ 'grunt-contrib-watch@0.6.x', null ]
+90 verbose cache add name=undefined spec="grunt-contrib-watch@0.6.x" args=["grunt-contrib-watch@0.6.x",null]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: 'grunt-contrib-watch@0.6.x',
+91 verbose parsed url   path: 'grunt-contrib-watch@0.6.x',
+91 verbose parsed url   href: 'grunt-contrib-watch@0.6.x' }
+92 verbose cache add name="grunt-contrib-watch" spec="0.6.x" args=["grunt-contrib-watch","0.6.x"]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: '0.6.x',
+93 verbose parsed url   path: '0.6.x',
+93 verbose parsed url   href: '0.6.x' }
+94 verbose addNamed [ 'grunt-contrib-watch', '0.6.x' ]
+95 verbose addNamed [ null, '>=0.6.0-0 <0.7.0-0' ]
+96 silly lockFile aadc3c1e-grunt-contrib-watch-0-6-x grunt-contrib-watch@0.6.x
+97 verbose lock grunt-contrib-watch@0.6.x /Users/christopherlizama/.npm/aadc3c1e-grunt-contrib-watch-0-6-x.lock
+98 verbose cache add [ 'grunt-mocha@^0.4.11', null ]
+99 verbose cache add name=undefined spec="grunt-mocha@^0.4.11" args=["grunt-mocha@^0.4.11",null]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: 'grunt-mocha@^0.4.11',
+100 verbose parsed url   path: 'grunt-mocha@^0.4.11',
+100 verbose parsed url   href: 'grunt-mocha@^0.4.11' }
+101 verbose cache add name="grunt-mocha" spec="^0.4.11" args=["grunt-mocha","^0.4.11"]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: '^0.4.11',
+102 verbose parsed url   path: '^0.4.11',
+102 verbose parsed url   href: '^0.4.11' }
+103 verbose addNamed [ 'grunt-mocha', '^0.4.11' ]
+104 verbose addNamed [ null, '>=0.4.11-0 <0.5.0-0' ]
+105 silly lockFile 30f06b83-grunt-mocha-0-4-11 grunt-mocha@^0.4.11
+106 verbose lock grunt-mocha@^0.4.11 /Users/christopherlizama/.npm/30f06b83-grunt-mocha-0-4-11.lock
+107 verbose cache add [ 'grunt-mocha-test@^0.12.4', null ]
+108 verbose cache add name=undefined spec="grunt-mocha-test@^0.12.4" args=["grunt-mocha-test@^0.12.4",null]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: 'grunt-mocha-test@^0.12.4',
+109 verbose parsed url   path: 'grunt-mocha-test@^0.12.4',
+109 verbose parsed url   href: 'grunt-mocha-test@^0.12.4' }
+110 verbose cache add name="grunt-mocha-test" spec="^0.12.4" args=["grunt-mocha-test","^0.12.4"]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: '^0.12.4',
+111 verbose parsed url   path: '^0.12.4',
+111 verbose parsed url   href: '^0.12.4' }
+112 verbose addNamed [ 'grunt-mocha-test', '^0.12.4' ]
+113 verbose addNamed [ null, '>=0.12.4-0 <0.13.0-0' ]
+114 silly lockFile ee46893d-grunt-mocha-test-0-12-4 grunt-mocha-test@^0.12.4
+115 verbose lock grunt-mocha-test@^0.12.4 /Users/christopherlizama/.npm/ee46893d-grunt-mocha-test-0-12-4.lock
+116 verbose cache add [ 'karma-mocha@^0.1.10', null ]
+117 verbose cache add name=undefined spec="karma-mocha@^0.1.10" args=["karma-mocha@^0.1.10",null]
+118 verbose parsed url { protocol: null,
+118 verbose parsed url   slashes: null,
+118 verbose parsed url   auth: null,
+118 verbose parsed url   host: null,
+118 verbose parsed url   port: null,
+118 verbose parsed url   hostname: null,
+118 verbose parsed url   hash: null,
+118 verbose parsed url   search: null,
+118 verbose parsed url   query: null,
+118 verbose parsed url   pathname: 'karma-mocha@^0.1.10',
+118 verbose parsed url   path: 'karma-mocha@^0.1.10',
+118 verbose parsed url   href: 'karma-mocha@^0.1.10' }
+119 verbose cache add name="karma-mocha" spec="^0.1.10" args=["karma-mocha","^0.1.10"]
+120 verbose parsed url { protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: '^0.1.10',
+120 verbose parsed url   path: '^0.1.10',
+120 verbose parsed url   href: '^0.1.10' }
+121 verbose addNamed [ 'karma-mocha', '^0.1.10' ]
+122 verbose addNamed [ null, '>=0.1.10-0 <0.2.0-0' ]
+123 silly lockFile 107ac819-karma-mocha-0-1-10 karma-mocha@^0.1.10
+124 verbose lock karma-mocha@^0.1.10 /Users/christopherlizama/.npm/107ac819-karma-mocha-0-1-10.lock
+125 verbose cache add [ 'karma-mocha-reporter@^0.3.1', null ]
+126 verbose cache add name=undefined spec="karma-mocha-reporter@^0.3.1" args=["karma-mocha-reporter@^0.3.1",null]
+127 verbose parsed url { protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: 'karma-mocha-reporter@^0.3.1',
+127 verbose parsed url   path: 'karma-mocha-reporter@^0.3.1',
+127 verbose parsed url   href: 'karma-mocha-reporter@^0.3.1' }
+128 verbose cache add name="karma-mocha-reporter" spec="^0.3.1" args=["karma-mocha-reporter","^0.3.1"]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: '^0.3.1',
+129 verbose parsed url   path: '^0.3.1',
+129 verbose parsed url   href: '^0.3.1' }
+130 verbose addNamed [ 'karma-mocha-reporter', '^0.3.1' ]
+131 verbose addNamed [ null, '>=0.3.1-0 <0.4.0-0' ]
+132 silly lockFile f6942af6-karma-mocha-reporter-0-3-1 karma-mocha-reporter@^0.3.1
+133 verbose lock karma-mocha-reporter@^0.3.1 /Users/christopherlizama/.npm/f6942af6-karma-mocha-reporter-0-3-1.lock
+134 verbose cache add [ 'karma-chai@^0.1.0', null ]
+135 verbose cache add name=undefined spec="karma-chai@^0.1.0" args=["karma-chai@^0.1.0",null]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: 'karma-chai@^0.1.0',
+136 verbose parsed url   path: 'karma-chai@^0.1.0',
+136 verbose parsed url   href: 'karma-chai@^0.1.0' }
+137 verbose cache add name="karma-chai" spec="^0.1.0" args=["karma-chai","^0.1.0"]
+138 verbose parsed url { protocol: null,
+138 verbose parsed url   slashes: null,
+138 verbose parsed url   auth: null,
+138 verbose parsed url   host: null,
+138 verbose parsed url   port: null,
+138 verbose parsed url   hostname: null,
+138 verbose parsed url   hash: null,
+138 verbose parsed url   search: null,
+138 verbose parsed url   query: null,
+138 verbose parsed url   pathname: '^0.1.0',
+138 verbose parsed url   path: '^0.1.0',
+138 verbose parsed url   href: '^0.1.0' }
+139 verbose addNamed [ 'karma-chai', '^0.1.0' ]
+140 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+141 silly lockFile f308b65b-karma-chai-0-1-0 karma-chai@^0.1.0
+142 verbose lock karma-chai@^0.1.0 /Users/christopherlizama/.npm/f308b65b-karma-chai-0-1-0.lock
+143 verbose cache add [ 'karma-phantomjs-launcher@^0.1.4', null ]
+144 verbose cache add name=undefined spec="karma-phantomjs-launcher@^0.1.4" args=["karma-phantomjs-launcher@^0.1.4",null]
+145 verbose parsed url { protocol: null,
+145 verbose parsed url   slashes: null,
+145 verbose parsed url   auth: null,
+145 verbose parsed url   host: null,
+145 verbose parsed url   port: null,
+145 verbose parsed url   hostname: null,
+145 verbose parsed url   hash: null,
+145 verbose parsed url   search: null,
+145 verbose parsed url   query: null,
+145 verbose parsed url   pathname: 'karma-phantomjs-launcher@^0.1.4',
+145 verbose parsed url   path: 'karma-phantomjs-launcher@^0.1.4',
+145 verbose parsed url   href: 'karma-phantomjs-launcher@^0.1.4' }
+146 verbose cache add name="karma-phantomjs-launcher" spec="^0.1.4" args=["karma-phantomjs-launcher","^0.1.4"]
+147 verbose parsed url { protocol: null,
+147 verbose parsed url   slashes: null,
+147 verbose parsed url   auth: null,
+147 verbose parsed url   host: null,
+147 verbose parsed url   port: null,
+147 verbose parsed url   hostname: null,
+147 verbose parsed url   hash: null,
+147 verbose parsed url   search: null,
+147 verbose parsed url   query: null,
+147 verbose parsed url   pathname: '^0.1.4',
+147 verbose parsed url   path: '^0.1.4',
+147 verbose parsed url   href: '^0.1.4' }
+148 verbose addNamed [ 'karma-phantomjs-launcher', '^0.1.4' ]
+149 verbose addNamed [ null, '>=0.1.4-0 <0.2.0-0' ]
+150 silly lockFile a2b6b896-karma-phantomjs-launcher-0-1-4 karma-phantomjs-launcher@^0.1.4
+151 verbose lock karma-phantomjs-launcher@^0.1.4 /Users/christopherlizama/.npm/a2b6b896-karma-phantomjs-launcher-0-1-4.lock
+152 verbose cache add [ 'mocha@^2.0.1', null ]
+153 verbose cache add name=undefined spec="mocha@^2.0.1" args=["mocha@^2.0.1",null]
+154 verbose parsed url { protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: 'mocha@^2.0.1',
+154 verbose parsed url   path: 'mocha@^2.0.1',
+154 verbose parsed url   href: 'mocha@^2.0.1' }
+155 verbose cache add name="mocha" spec="^2.0.1" args=["mocha","^2.0.1"]
+156 verbose parsed url { protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: '^2.0.1',
+156 verbose parsed url   path: '^2.0.1',
+156 verbose parsed url   href: '^2.0.1' }
+157 verbose addNamed [ 'mocha', '^2.0.1' ]
+158 verbose addNamed [ null, '>=2.0.1-0 <3.0.0-0' ]
+159 silly lockFile 69e0deef-mocha-2-0-1 mocha@^2.0.1
+160 verbose lock mocha@^2.0.1 /Users/christopherlizama/.npm/69e0deef-mocha-2-0-1.lock
+161 verbose cache add [ 'mustache@^0.8.2', null ]
+162 verbose cache add name=undefined spec="mustache@^0.8.2" args=["mustache@^0.8.2",null]
+163 verbose parsed url { protocol: null,
+163 verbose parsed url   slashes: null,
+163 verbose parsed url   auth: null,
+163 verbose parsed url   host: null,
+163 verbose parsed url   port: null,
+163 verbose parsed url   hostname: null,
+163 verbose parsed url   hash: null,
+163 verbose parsed url   search: null,
+163 verbose parsed url   query: null,
+163 verbose parsed url   pathname: 'mustache@^0.8.2',
+163 verbose parsed url   path: 'mustache@^0.8.2',
+163 verbose parsed url   href: 'mustache@^0.8.2' }
+164 verbose cache add name="mustache" spec="^0.8.2" args=["mustache","^0.8.2"]
+165 verbose parsed url { protocol: null,
+165 verbose parsed url   slashes: null,
+165 verbose parsed url   auth: null,
+165 verbose parsed url   host: null,
+165 verbose parsed url   port: null,
+165 verbose parsed url   hostname: null,
+165 verbose parsed url   hash: null,
+165 verbose parsed url   search: null,
+165 verbose parsed url   query: null,
+165 verbose parsed url   pathname: '^0.8.2',
+165 verbose parsed url   path: '^0.8.2',
+165 verbose parsed url   href: '^0.8.2' }
+166 verbose addNamed [ 'mustache', '^0.8.2' ]
+167 verbose addNamed [ null, '>=0.8.2-0 <0.9.0-0' ]
+168 silly lockFile a306f805-mustache-0-8-2 mustache@^0.8.2
+169 verbose lock mustache@^0.8.2 /Users/christopherlizama/.npm/a306f805-mustache-0-8-2.lock
+170 verbose cache add [ 'phantomjs@^1.9.12', null ]
+171 verbose cache add name=undefined spec="phantomjs@^1.9.12" args=["phantomjs@^1.9.12",null]
+172 verbose parsed url { protocol: null,
+172 verbose parsed url   slashes: null,
+172 verbose parsed url   auth: null,
+172 verbose parsed url   host: null,
+172 verbose parsed url   port: null,
+172 verbose parsed url   hostname: null,
+172 verbose parsed url   hash: null,
+172 verbose parsed url   search: null,
+172 verbose parsed url   query: null,
+172 verbose parsed url   pathname: 'phantomjs@^1.9.12',
+172 verbose parsed url   path: 'phantomjs@^1.9.12',
+172 verbose parsed url   href: 'phantomjs@^1.9.12' }
+173 verbose cache add name="phantomjs" spec="^1.9.12" args=["phantomjs","^1.9.12"]
+174 verbose parsed url { protocol: null,
+174 verbose parsed url   slashes: null,
+174 verbose parsed url   auth: null,
+174 verbose parsed url   host: null,
+174 verbose parsed url   port: null,
+174 verbose parsed url   hostname: null,
+174 verbose parsed url   hash: null,
+174 verbose parsed url   search: null,
+174 verbose parsed url   query: null,
+174 verbose parsed url   pathname: '^1.9.12',
+174 verbose parsed url   path: '^1.9.12',
+174 verbose parsed url   href: '^1.9.12' }
+175 verbose addNamed [ 'phantomjs', '^1.9.12' ]
+176 verbose addNamed [ null, '>=1.9.12-0 <2.0.0-0' ]
+177 silly lockFile d0a17c3a-phantomjs-1-9-12 phantomjs@^1.9.12
+178 verbose lock phantomjs@^1.9.12 /Users/christopherlizama/.npm/d0a17c3a-phantomjs-1-9-12.lock
+179 verbose cache add [ 'tundra@^1.0.0-rc.1', null ]
+180 verbose cache add name=undefined spec="tundra@^1.0.0-rc.1" args=["tundra@^1.0.0-rc.1",null]
+181 verbose parsed url { protocol: null,
+181 verbose parsed url   slashes: null,
+181 verbose parsed url   auth: null,
+181 verbose parsed url   host: null,
+181 verbose parsed url   port: null,
+181 verbose parsed url   hostname: null,
+181 verbose parsed url   hash: null,
+181 verbose parsed url   search: null,
+181 verbose parsed url   query: null,
+181 verbose parsed url   pathname: 'tundra@^1.0.0-rc.1',
+181 verbose parsed url   path: 'tundra@^1.0.0-rc.1',
+181 verbose parsed url   href: 'tundra@^1.0.0-rc.1' }
+182 verbose cache add name="tundra" spec="^1.0.0-rc.1" args=["tundra","^1.0.0-rc.1"]
+183 verbose parsed url { protocol: null,
+183 verbose parsed url   slashes: null,
+183 verbose parsed url   auth: null,
+183 verbose parsed url   host: null,
+183 verbose parsed url   port: null,
+183 verbose parsed url   hostname: null,
+183 verbose parsed url   hash: null,
+183 verbose parsed url   search: null,
+183 verbose parsed url   query: null,
+183 verbose parsed url   pathname: '^1.0.0-rc.1',
+183 verbose parsed url   path: '^1.0.0-rc.1',
+183 verbose parsed url   href: '^1.0.0-rc.1' }
+184 verbose addNamed [ 'tundra', '^1.0.0-rc.1' ]
+185 verbose addNamed [ null, '>=1.0.0-rc.1 <2.0.0-0' ]
+186 silly lockFile c66f2f6e-tundra-1-0-0-rc-1 tundra@^1.0.0-rc.1
+187 verbose lock tundra@^1.0.0-rc.1 /Users/christopherlizama/.npm/c66f2f6e-tundra-1-0-0-rc-1.lock
+188 verbose cache add [ 'express@~4.9.0', null ]
+189 verbose cache add name=undefined spec="express@~4.9.0" args=["express@~4.9.0",null]
+190 verbose parsed url { protocol: null,
+190 verbose parsed url   slashes: null,
+190 verbose parsed url   auth: null,
+190 verbose parsed url   host: null,
+190 verbose parsed url   port: null,
+190 verbose parsed url   hostname: null,
+190 verbose parsed url   hash: null,
+190 verbose parsed url   search: null,
+190 verbose parsed url   query: null,
+190 verbose parsed url   pathname: 'express@~4.9.0',
+190 verbose parsed url   path: 'express@~4.9.0',
+190 verbose parsed url   href: 'express@~4.9.0' }
+191 verbose cache add name="express" spec="~4.9.0" args=["express","~4.9.0"]
+192 verbose parsed url { protocol: null,
+192 verbose parsed url   slashes: null,
+192 verbose parsed url   auth: null,
+192 verbose parsed url   host: null,
+192 verbose parsed url   port: null,
+192 verbose parsed url   hostname: null,
+192 verbose parsed url   hash: null,
+192 verbose parsed url   search: null,
+192 verbose parsed url   query: null,
+192 verbose parsed url   pathname: '~4.9.0',
+192 verbose parsed url   path: '~4.9.0',
+192 verbose parsed url   href: '~4.9.0' }
+193 verbose addNamed [ 'express', '~4.9.0' ]
+194 verbose addNamed [ null, '>=4.9.0-0 <4.10.0-0' ]
+195 silly lockFile 6ae7fa08-express-4-9-0 express@~4.9.0
+196 verbose lock express@~4.9.0 /Users/christopherlizama/.npm/6ae7fa08-express-4-9-0.lock
+197 verbose cache add [ 'body-parser@~1.8.1', null ]
+198 verbose cache add name=undefined spec="body-parser@~1.8.1" args=["body-parser@~1.8.1",null]
+199 verbose parsed url { protocol: null,
+199 verbose parsed url   slashes: null,
+199 verbose parsed url   auth: null,
+199 verbose parsed url   host: null,
+199 verbose parsed url   port: null,
+199 verbose parsed url   hostname: null,
+199 verbose parsed url   hash: null,
+199 verbose parsed url   search: null,
+199 verbose parsed url   query: null,
+199 verbose parsed url   pathname: 'body-parser@~1.8.1',
+199 verbose parsed url   path: 'body-parser@~1.8.1',
+199 verbose parsed url   href: 'body-parser@~1.8.1' }
+200 verbose cache add name="body-parser" spec="~1.8.1" args=["body-parser","~1.8.1"]
+201 verbose parsed url { protocol: null,
+201 verbose parsed url   slashes: null,
+201 verbose parsed url   auth: null,
+201 verbose parsed url   host: null,
+201 verbose parsed url   port: null,
+201 verbose parsed url   hostname: null,
+201 verbose parsed url   hash: null,
+201 verbose parsed url   search: null,
+201 verbose parsed url   query: null,
+201 verbose parsed url   pathname: '~1.8.1',
+201 verbose parsed url   path: '~1.8.1',
+201 verbose parsed url   href: '~1.8.1' }
+202 verbose addNamed [ 'body-parser', '~1.8.1' ]
+203 verbose addNamed [ null, '>=1.8.1-0 <1.9.0-0' ]
+204 silly lockFile a49948c1-body-parser-1-8-1 body-parser@~1.8.1
+205 verbose lock body-parser@~1.8.1 /Users/christopherlizama/.npm/a49948c1-body-parser-1-8-1.lock
+206 silly addNameRange { name: 'morgan', range: '>=1.3.0-0 <1.4.0-0', hasData: false }
+207 silly addNameRange { name: 'cookie-parser',
+207 silly addNameRange   range: '>=1.3.3-0 <1.4.0-0',
+207 silly addNameRange   hasData: false }
+208 silly addNameRange { name: 'serve-favicon',
+208 silly addNameRange   range: '>=2.1.3-0 <2.2.0-0',
+208 silly addNameRange   hasData: false }
+209 silly addNameRange { name: 'jade', range: '>=1.6.0-0 <1.7.0-0', hasData: false }
+210 silly addNameRange { name: 'bower', range: '>=1.3.12-0 <2.0.0-0', hasData: false }
+211 silly addNameRange { name: 'chai', range: '>=1.10.0-0 <2.0.0-0', hasData: false }
+212 silly addNameRange { name: 'debug', range: '>=2.0.0-0 <2.1.0-0', hasData: false }
+213 silly addNameRange { name: 'consolidate',
+213 silly addNameRange   range: '>=0.10.0-0 <0.11.0-0',
+213 silly addNameRange   hasData: false }
+214 silly addNameRange { name: 'grunt', range: '>=0.4.5-0 <0.5.0-0', hasData: false }
+215 silly addNameRange { name: 'grunt-contrib-watch',
+215 silly addNameRange   range: '>=0.6.0-0 <0.7.0-0',
+215 silly addNameRange   hasData: false }
+216 silly addNameRange { name: 'grunt-mocha',
+216 silly addNameRange   range: '>=0.4.11-0 <0.5.0-0',
+216 silly addNameRange   hasData: false }
+217 silly addNameRange { name: 'karma-mocha',
+217 silly addNameRange   range: '>=0.1.10-0 <0.2.0-0',
+217 silly addNameRange   hasData: false }
+218 silly addNameRange { name: 'grunt-mocha-test',
+218 silly addNameRange   range: '>=0.12.4-0 <0.13.0-0',
+218 silly addNameRange   hasData: false }
+219 silly addNameRange { name: 'karma-mocha-reporter',
+219 silly addNameRange   range: '>=0.3.1-0 <0.4.0-0',
+219 silly addNameRange   hasData: false }
+220 silly addNameRange { name: 'karma-phantomjs-launcher',
+220 silly addNameRange   range: '>=0.1.4-0 <0.2.0-0',
+220 silly addNameRange   hasData: false }
+221 silly addNameRange { name: 'karma-chai',
+221 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+221 silly addNameRange   hasData: false }
+222 silly addNameRange { name: 'mocha', range: '>=2.0.1-0 <3.0.0-0', hasData: false }
+223 silly addNameRange { name: 'mustache', range: '>=0.8.2-0 <0.9.0-0', hasData: false }
+224 silly addNameRange { name: 'phantomjs',
+224 silly addNameRange   range: '>=1.9.12-0 <2.0.0-0',
+224 silly addNameRange   hasData: false }
+225 verbose url raw bower
+226 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+227 verbose url resolved https://registry.npmjs.org/bower
+228 info trying registry request attempt 1 at 16:28:39
+229 http GET https://registry.npmjs.org/bower
+230 verbose url raw karma-phantomjs-launcher
+231 verbose url resolving [ 'https://registry.npmjs.org/', './karma-phantomjs-launcher' ]
+232 verbose url resolved https://registry.npmjs.org/karma-phantomjs-launcher
+233 info trying registry request attempt 1 at 16:28:39
+234 http GET https://registry.npmjs.org/karma-phantomjs-launcher
+235 silly addNameRange { name: 'tundra',
+235 silly addNameRange   range: '>=1.0.0-rc.1 <2.0.0-0',
+235 silly addNameRange   hasData: false }
+236 silly addNameRange { name: 'express', range: '>=4.9.0-0 <4.10.0-0', hasData: false }
+237 silly addNameRange { name: 'body-parser',
+237 silly addNameRange   range: '>=1.8.1-0 <1.9.0-0',
+237 silly addNameRange   hasData: false }
+238 verbose url raw tundra
+239 verbose url resolving [ 'https://registry.npmjs.org/', './tundra' ]
+240 verbose url resolved https://registry.npmjs.org/tundra
+241 info trying registry request attempt 1 at 16:28:39
+242 http GET https://registry.npmjs.org/tundra
+243 verbose url raw jade
+244 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+245 verbose url resolved https://registry.npmjs.org/jade
+246 info trying registry request attempt 1 at 16:28:39
+247 verbose etag "6JB6OJEY63KVMO86MV8VO2NQZ"
+248 http GET https://registry.npmjs.org/jade
+249 verbose url raw chai
+250 verbose url resolving [ 'https://registry.npmjs.org/', './chai' ]
+251 verbose url resolved https://registry.npmjs.org/chai
+252 info trying registry request attempt 1 at 16:28:39
+253 verbose etag "BPO67ZFQ7NHLRZP5RCF7V48FG"
+254 http GET https://registry.npmjs.org/chai
+255 verbose url raw cookie-parser
+256 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-parser' ]
+257 verbose url resolved https://registry.npmjs.org/cookie-parser
+258 info trying registry request attempt 1 at 16:28:40
+259 verbose etag "DDKJHDWHHJC6DWGLE2O7KQ8MK"
+260 http GET https://registry.npmjs.org/cookie-parser
+261 verbose url raw serve-favicon
+262 verbose url resolving [ 'https://registry.npmjs.org/', './serve-favicon' ]
+263 verbose url resolved https://registry.npmjs.org/serve-favicon
+264 info trying registry request attempt 1 at 16:28:40
+265 verbose etag "YDYZWHTSMHUH8DM7NIC4WKPK"
+266 http GET https://registry.npmjs.org/serve-favicon
+267 verbose url raw morgan
+268 verbose url resolving [ 'https://registry.npmjs.org/', './morgan' ]
+269 verbose url resolved https://registry.npmjs.org/morgan
+270 info trying registry request attempt 1 at 16:28:40
+271 verbose etag "6KFPYUEOGSKQKYB7T9LLIG8JS"
+272 http GET https://registry.npmjs.org/morgan
+273 verbose url raw consolidate
+274 verbose url resolving [ 'https://registry.npmjs.org/', './consolidate' ]
+275 verbose url resolved https://registry.npmjs.org/consolidate
+276 info trying registry request attempt 1 at 16:28:40
+277 verbose etag "8QETIK1YH9R6636CDAC4VWUTA"
+278 http GET https://registry.npmjs.org/consolidate
+279 verbose url raw grunt-contrib-watch
+280 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-watch' ]
+281 verbose url resolved https://registry.npmjs.org/grunt-contrib-watch
+282 info trying registry request attempt 1 at 16:28:40
+283 verbose etag "1C1MLC71OP2RS18SWT5764AG7"
+284 http GET https://registry.npmjs.org/grunt-contrib-watch
+285 verbose url raw grunt
+286 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+287 verbose url resolved https://registry.npmjs.org/grunt
+288 info trying registry request attempt 1 at 16:28:40
+289 verbose etag "9YXYT82DHNZ9OAS5M69GN9VEA"
+290 http GET https://registry.npmjs.org/grunt
+291 verbose url raw karma-mocha
+292 verbose url resolving [ 'https://registry.npmjs.org/', './karma-mocha' ]
+293 verbose url resolved https://registry.npmjs.org/karma-mocha
+294 info trying registry request attempt 1 at 16:28:40
+295 verbose etag "4GFYO1BVTYF1QV7NUS3GXHD8I"
+296 http GET https://registry.npmjs.org/karma-mocha
+297 verbose url raw grunt-mocha
+298 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-mocha' ]
+299 verbose url resolved https://registry.npmjs.org/grunt-mocha
+300 info trying registry request attempt 1 at 16:28:40
+301 verbose etag "7UYBIGFZ6MPON9CY0MKSN4WKV"
+302 http GET https://registry.npmjs.org/grunt-mocha
+303 verbose url raw karma-chai
+304 verbose url resolving [ 'https://registry.npmjs.org/', './karma-chai' ]
+305 verbose url resolved https://registry.npmjs.org/karma-chai
+306 info trying registry request attempt 1 at 16:28:40
+307 verbose etag "1HYHI3S8H6H2IPFRW6IFVCMTE"
+308 http GET https://registry.npmjs.org/karma-chai
+309 verbose url raw karma-mocha-reporter
+310 verbose url resolving [ 'https://registry.npmjs.org/', './karma-mocha-reporter' ]
+311 verbose url resolved https://registry.npmjs.org/karma-mocha-reporter
+312 info trying registry request attempt 1 at 16:28:40
+313 verbose etag "DSDQFU3RI6P2GMYS43OTKGB9P"
+314 http GET https://registry.npmjs.org/karma-mocha-reporter
+315 verbose url raw grunt-mocha-test
+316 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-mocha-test' ]
+317 verbose url resolved https://registry.npmjs.org/grunt-mocha-test
+318 info trying registry request attempt 1 at 16:28:40
+319 verbose etag "38LJLAY4X7R3ETN47TW7QKK6T"
+320 http GET https://registry.npmjs.org/grunt-mocha-test
+321 verbose url raw mustache
+322 verbose url resolving [ 'https://registry.npmjs.org/', './mustache' ]
+323 verbose url resolved https://registry.npmjs.org/mustache
+324 info trying registry request attempt 1 at 16:28:40
+325 verbose etag "5X2V1KO3TVR5LLAM39P0AHN6F"
+326 http GET https://registry.npmjs.org/mustache
+327 verbose url raw mocha
+328 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+329 verbose url resolved https://registry.npmjs.org/mocha
+330 info trying registry request attempt 1 at 16:28:40
+331 verbose etag "4XVXF18I0ZZPNJSMQLOQBPDHM"
+332 http GET https://registry.npmjs.org/mocha
+333 verbose url raw debug
+334 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+335 verbose url resolved https://registry.npmjs.org/debug
+336 info trying registry request attempt 1 at 16:28:40
+337 verbose etag "8RE09RF5XBKPDYSKX8AOXK49B"
+338 http GET https://registry.npmjs.org/debug
+339 verbose url raw phantomjs
+340 verbose url resolving [ 'https://registry.npmjs.org/', './phantomjs' ]
+341 verbose url resolved https://registry.npmjs.org/phantomjs
+342 info trying registry request attempt 1 at 16:28:40
+343 verbose etag "BP25I2XDD7HG8FO3MYS5P6JT2"
+344 http GET https://registry.npmjs.org/phantomjs
+345 verbose url raw express
+346 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+347 verbose url resolved https://registry.npmjs.org/express
+348 info trying registry request attempt 1 at 16:28:40
+349 verbose etag "2N5F6QXDZ11EJ2E2MRJQQCDOS"
+350 http GET https://registry.npmjs.org/express
+351 verbose url raw body-parser
+352 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+353 verbose url resolved https://registry.npmjs.org/body-parser
+354 info trying registry request attempt 1 at 16:28:40
+355 verbose etag "2B36CLIDT055CQ4DVPUCO0GJ5"
+356 http GET https://registry.npmjs.org/body-parser
+357 http 304 https://registry.npmjs.org/chai
+358 silly registry.get cb [ 304,
+358 silly registry.get   { date: 'Sun, 04 Jan 2015 22:28:40 GMT',
+358 silly registry.get     server: 'Apache',
+358 silly registry.get     via: '1.1 varnish',
+358 silly registry.get     'last-modified': 'Sun, 04 Jan 2015 22:28:40 GMT',
+358 silly registry.get     'cache-control': 'max-age=60',
+358 silly registry.get     etag: '"BPO67ZFQ7NHLRZP5RCF7V48FG"',
+358 silly registry.get     age: '0',
+358 silly registry.get     'x-served-by': 'cache-ord1735-ORD',
+358 silly registry.get     'x-cache': 'HIT',
+358 silly registry.get     'x-cache-hits': '1',
+358 silly registry.get     'x-timer': 'S1420410520.367558,VS0,VE131',
+358 silly registry.get     vary: 'Accept',
+358 silly registry.get     'content-length': '0',
+358 silly registry.get     'keep-alive': 'timeout=10, max=50',
+358 silly registry.get     connection: 'Keep-Alive' } ]
+359 verbose etag chai from cache
+360 silly addNameRange number 2 { name: 'chai', range: '>=1.10.0-0 <2.0.0-0', hasData: true }
+361 silly addNameRange versions [ 'chai',
+361 silly addNameRange   [ '0.0.1',
+361 silly addNameRange     '0.0.2',
+361 silly addNameRange     '0.1.0',
+361 silly addNameRange     '0.1.1',
+361 silly addNameRange     '0.1.2',
+361 silly addNameRange     '0.1.3',
+361 silly addNameRange     '0.1.4',
+361 silly addNameRange     '0.1.5',
+361 silly addNameRange     '0.1.6',
+361 silly addNameRange     '0.1.7',
+361 silly addNameRange     '0.2.0',
+361 silly addNameRange     '0.2.1',
+361 silly addNameRange     '0.2.2',
+361 silly addNameRange     '0.2.3',
+361 silly addNameRange     '0.2.4',
+361 silly addNameRange     '0.3.0',
+361 silly addNameRange     '0.3.1',
+361 silly addNameRange     '0.3.2',
+361 silly addNameRange     '0.3.3',
+361 silly addNameRange     '0.3.4',
+361 silly addNameRange     '0.4.0',
+361 silly addNameRange     '0.4.1',
+361 silly addNameRange     '0.4.2',
+361 silly addNameRange     '0.5.0',
+361 silly addNameRange     '0.5.1',
+361 silly addNameRange     '0.5.2',
+361 silly addNameRange     '0.5.3',
+361 silly addNameRange     '1.0.0',
+361 silly addNameRange     '1.0.1',
+361 silly addNameRange     '1.0.2',
+361 silly addNameRange     '1.0.3',
+361 silly addNameRange     '1.0.4',
+361 silly addNameRange     '1.1.0',
+361 silly addNameRange     '1.1.1',
+361 silly addNameRange     '1.2.0',
+361 silly addNameRange     '1.3.0',
+361 silly addNameRange     '1.4.0',
+361 silly addNameRange     '1.4.1',
+361 silly addNameRange     '1.4.2',
+361 silly addNameRange     '1.5.0',
+361 silly addNameRange     '1.6.0',
+361 silly addNameRange     '1.6.1',
+361 silly addNameRange     '1.7.0',
+361 silly addNameRange     '1.7.1',
+361 silly addNameRange     '1.7.2',
+361 silly addNameRange     '1.8.0',
+361 silly addNameRange     '1.8.1',
+361 silly addNameRange     '1.9.0',
+361 silly addNameRange     '1.9.1',
+361 silly addNameRange     '1.9.2',
+361 silly addNameRange     '1.10.0' ] ]
+362 verbose addNamed [ 'chai', '1.10.0' ]
+363 verbose addNamed [ '1.10.0', '1.10.0' ]
+364 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+365 verbose lock chai@1.10.0 /Users/christopherlizama/.npm/6724da50-chai-1-10-0.lock
+366 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+367 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+368 silly lockFile 55766717-chai-1-10-0 chai@^1.10.0
+369 silly lockFile 55766717-chai-1-10-0 chai@^1.10.0
+370 http 200 https://registry.npmjs.org/karma-phantomjs-launcher
+371 silly registry.get cb [ 200,
+371 silly registry.get   { date: 'Sun, 04 Jan 2015 22:28:40 GMT',
+371 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+371 silly registry.get     etag: '"66UFY5MR6A83JYRYD5F5XPBQP"',
+371 silly registry.get     'content-type': 'application/json',
+371 silly registry.get     'cache-control': 'max-age=60',
+371 silly registry.get     'content-length': '12786',
+371 silly registry.get     'accept-ranges': 'bytes',
+371 silly registry.get     via: '1.1 varnish',
+371 silly registry.get     age: '0',
+371 silly registry.get     'x-served-by': 'cache-ord1724-ORD',
+371 silly registry.get     'x-cache': 'HIT',
+371 silly registry.get     'x-cache-hits': '1',
+371 silly registry.get     'x-timer': 'S1420410520.297298,VS0,VE272',
+371 silly registry.get     vary: 'Accept',
+371 silly registry.get     'keep-alive': 'timeout=10, max=50',
+371 silly registry.get     connection: 'Keep-Alive' } ]
+372 http 404 https://registry.npmjs.org/tundra
+373 silly registry.get cb [ 404,
+373 silly registry.get   { date: 'Sun, 04 Jan 2015 22:28:40 GMT',
+373 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+373 silly registry.get     'content-type': 'application/json',
+373 silly registry.get     'cache-control': 'max-age=0',
+373 silly registry.get     'content-length': '52',
+373 silly registry.get     'accept-ranges': 'bytes',
+373 silly registry.get     via: '1.1 varnish',
+373 silly registry.get     age: '0',
+373 silly registry.get     'x-served-by': 'cache-ord1733-ORD',
+373 silly registry.get     'x-cache': 'MISS',
+373 silly registry.get     'x-cache-hits': '0',
+373 silly registry.get     'x-timer': 'S1420410520.300057,VS0,VE273',
+373 silly registry.get     'keep-alive': 'timeout=10, max=50',
+373 silly registry.get     connection: 'Keep-Alive' } ]
+374 silly lockFile c66f2f6e-tundra-1-0-0-rc-1 tundra@^1.0.0-rc.1
+375 silly lockFile c66f2f6e-tundra-1-0-0-rc-1 tundra@^1.0.0-rc.1
+376 error 404 'tundra' is not in the npm registry.
+376 error 404 You should bug the author to publish it
+376 error 404 It was specified as a dependency of 'crg'
+376 error 404
+376 error 404 Note that you can also install from a
+376 error 404 tarball, folder, or http url, or git url.
+377 error System Darwin 14.0.0
+378 error command "node" "/usr/local/bin/npm" "install"
+379 error cwd /Users/christopherlizama/Desktop/GithubRepos/crg
+380 error node -v v0.10.22
+381 error npm -v 1.4.4
+382 error code E404
+383 verbose exit [ 1, true ]

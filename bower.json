@@ -1,0 +1,11 @@
+{
+  "name": "crg",
+  "description": "crg",
+  "version": "0.0.0",
+  "homepage": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular-material": "~0.6.1"
+  }
+}
