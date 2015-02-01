@@ -20,18 +20,19 @@ angular.module('myApp.main', ['ngRoute',"firebase"])
 
 .controller('mainCtrl', ['$scope', '$firebase', function($scope, $firebase) {
 
-    var ref = new Firebase("https://siphon.firebaseio.com");
-      $scope.data = $firebase(ref).$asArray();
+        $scope.time = 120;
 
+    var ref = new Firebase("https://siphon.firebaseio.com");
+    $scope.data = $firebase(ref).$asArray();
 
     $scope.addName = function(e) {
             if (e.keyCode === 13 && $scope.body) {
-          $scope.data.$add({name: $scope.body, time: $scope.time});
+          $scope.data.$add({name: $scope.body, time: $scope.time});you
               $scope.body = "";
             }
-          }
+    };
 
-        $scope.deleteMessage = function(id) {
-          $scope.data.$remove(id);
-        }
+    $scope.deleteMessage = function(id) {
+      $scope.data.$remove(id);
+    };
 }]);

@@ -9,7 +9,7 @@
   <title>Coffee recipes</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/angular_material/0.6.1/angular-material.min.css">
 
 </head>
@@ -20,28 +20,24 @@
   <![endif]-->
 
 <div ng-controller='mainCtrl'>
-    <h3>crg</h3>
-<!--     <ul>
-      <li ng-repeat="(id, post) in data" class="">
-        <div>Origin: <span ng-bind="post.name"></span></div>
-        <div>Time: <span ng-bind="post.time"></span> seconds</div>
-        <div>Grind setting: <span ng-bind="post.grind"></span></div>
-        <div>Coffee dose: <span ng-bind="post.coffee"></span> grams</div>
+    <md-toolbar>crg</md-toolbar>
 
-        <br>
-        <input class="deleteButton" type="checkbox" ng-click="deleteMessage(id)">Delete</input>
-      </li>
-    </ul> -->
+  <div>
+    <label for='nameInput'></label>
+    <input type='text' id='nameInput' ng-model="body" ng-keydown="addName($event)">
+  </div>
 
   <md-content>
     <md-list>
       <md-item ng-repeat="(id, post) in data">
         <md-item-content>
           <div class="md-tile-content">
-            <div><span style="bold" ng-bind="post.name"></span></div>
+            <h2><span style="bold" ng-bind="post.name"></span></h2>
+            <h5><span ng-bind="post.author"></span></h5>
             <div>Time: <span ng-bind="post.time"></span> seconds</div>
             <div>Grind setting: <span ng-bind="post.grind"></span></div>
             <div>Coffee dose: <span ng-bind="post.coffee"></span> grams</div>
+            <div>Instructions: <span ng-bind="post.instructions"></span></div>
           </div>      
         </md-item-content>
       </md-item>
